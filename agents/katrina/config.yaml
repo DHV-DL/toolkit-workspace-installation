@@ -1,0 +1,5 @@
+name: katrina
+character: Katrina Bennett
+schedule: "0 17 * * 1-5"
+model: sonnet
+skills: [task-erstellung, tagesplanung]

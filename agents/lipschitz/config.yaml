@@ -1,0 +1,5 @@
+name: lipschitz
+character: Dr. Stan Lipschitz
+model: sonnet
+mcp_servers: [microsoft-365]
+skills: [kanalregeln, kontakt-persona]

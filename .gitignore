@@ -1,0 +1,43 @@
+# Binaries – stay in Google Drive, not in Git
+*.pdf
+*.pptx
+*.docx
+*.xlsx
+*.xls
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.zip
+*.7z
+
+# Personal runtime data (never commit)
+contacts/
+projects/
+documents/
+journal/
+archive/
+goals/
+notes/meetings/
+inbox/.staging/
+inbox/quick-capture/
+inbox/mail/
+inbox/mobile/
+inbox/voice/
+inbox/claude-chats/
+INDEX.md
+BOOTSTRAP_STATE.md
+
+# Agent runtime
+agents/*/corrections/
+agents/*/tests/
+agents/*/errors.log
+agents/*/metrics.log
+
+# System
+.claude/worktrees/
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db

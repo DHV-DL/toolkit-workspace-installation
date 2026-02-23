@@ -1,0 +1,6 @@
+name: jessica
+character: Jessica Pearson
+schedule: "0 16 * * 5"
+model: opus
+mcp_servers: [microsoft-365]
+skills: [reporting, projekt-status, sop-erstellung, wissens-capture]

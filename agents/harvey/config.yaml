@@ -1,0 +1,7 @@
+name: harvey
+character: Harvey Specter
+schedule: "5 8 * * 1-5"
+model: sonnet
+mcp_servers: [microsoft-365]
+skills: [tagesplanung, task-erstellung, projekt-status]
+runs_after: donna

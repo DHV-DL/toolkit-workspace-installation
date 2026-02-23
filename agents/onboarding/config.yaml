@@ -1,0 +1,4 @@
+name: onboarding
+character: Pearson Specter Workspace
+model: sonnet
+trigger: manual   # "Wer bist du?" / "Wie funktioniert das?" / erster Start

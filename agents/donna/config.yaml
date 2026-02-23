@@ -1,0 +1,19 @@
+name: donna
+character: Donna Paulsen
+schedule: "0 8 * * 1-5"
+model: sonnet
+mcp_servers: [microsoft-365]
+skills: [inbound-triage, dokument-eingang, email-stil, kanalregeln, dokument-ablage, task-erstellung, follow-up-management, eskalation-kommunikation]
+runs_before: harvey
+parameters:
+  max_mails: 50
+  skip_categories: [newsletter, notification, marketing]
+  follow_up_days: 5
+time_saved_estimates:        # Minuten gespart pro Aktion (kalibrierbar)
+  mail_processed: 4          # Minuten pro verarbeiteter Mail
+  task_created: 3            # Minuten pro erstelltem Task
+  draft_created: 8           # Minuten pro Antwort-Draft
+  follow_up_tracked: 2       # Minuten pro Follow-Up
+  contact_updated: 2         # Minuten pro Kontakt-Update
+  document_processed: 15     # Minuten pro Dokument (louis)
+  meeting_prepared: 20       # Minuten pro Meeting-Vorbereitung (rachel)

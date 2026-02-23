@@ -1,0 +1,5 @@
+name: louis
+character: Louis Litt
+schedule: "0 8 * * 1"
+model: sonnet
+skills: [dokument-eingang, vertrag-analyse, rechnung-verarbeitung, dokument-ablage, brief-formal]

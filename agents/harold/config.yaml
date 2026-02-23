@@ -1,0 +1,6 @@
+name: harold
+character: Harold Gunderson
+schedule_quick: "5 17 * * 1-5"
+schedule_full: "30 16 * * 5"
+model: sonnet
+skills: [inbound-triage, dokument-eingang, dokument-ablage]
